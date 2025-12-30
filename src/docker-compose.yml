@@ -1,0 +1,6 @@
+services:
+    catalogdb:
+        image: postgres:16.11-alpine3.23
+volumes:
+    postgres_catalog:    
+   
